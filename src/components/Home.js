@@ -1,27 +1,10 @@
 import React from "react";
 import "./Style.css";
-import {About} from "./About";
-import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
-export default function Home() {
+import pic from "../img/pic.jpeg";
+function Home() {
   return (
     <div class="content">
-      <ul>
-        <Router>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/About">About</Link>
-          </li>
-          <li>
-            <Link to="/learning">Learning</Link>
-          </li>
-          <li>
-            <Link to="/project">Project</Link>
-          </li>
-        </Router>
-      </ul>
-      <img class="img" src="./img/pic.jpeg" alt="profilePhoto" />
+      <img class="img" src={pic} alt="profilePhoto" />
       <h2 id="heading">Aspiring Software Engineer | Freelancer</h2>
       <p class="para">
         I am Frontend Developer upskilling the skills to be an Full Stack Dev.
@@ -88,3 +71,4 @@ export default function Home() {
     </div>
   );
 }
+export default Home;
