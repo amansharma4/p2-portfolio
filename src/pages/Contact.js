@@ -1,7 +1,8 @@
 import React from "react";
 import "./Style.css";
 import pic from "../img/pic.jpeg";
-const Home = () => {
+
+const Contact = () => {
   return (
     <div class="content">
       <img class="img" src={pic} alt="profilePhoto" />
@@ -65,5 +66,5 @@ const Home = () => {
       </p>
     </div>
   );
-}
-export default Home;
+};
+export default Contact;
