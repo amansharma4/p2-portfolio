@@ -2,7 +2,7 @@ import React from "react";
 import "./Style.css";
 import pic from "../img/pic.jpeg";
 
-export default function Learning() {
+const Contact = () => {
   return (
     <div class="content">
       <img class="img" src={pic} alt="profilePhoto" />
@@ -30,12 +30,7 @@ export default function Learning() {
           alt="nodejs"
         />
       </div>
-      <div class="container">
-        <p>Javascript</p>
-        <p>React</p>
-        <p>Mongodb</p>
-        <p>NodeJS</p>
-      </div>
+      <br />
       <h1 class="head">Projects</h1>
       <h1 class="head">Blog</h1>
       <div class="head1">
@@ -71,4 +66,5 @@ export default function Learning() {
       </p>
     </div>
   );
-}
+};
+export default Contact;

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Style.css";
 import pic from "../img/pic.jpeg";
-function Home() {
+const Home = () => {
   return (
     <div class="content">
       <img class="img" src={pic} alt="profilePhoto" />
@@ -29,12 +29,7 @@ function Home() {
           alt="nodejs"
         />
       </div>
-      <div class="container">
-        <p>Javascript</p>
-        <p>React</p>
-        <p>Mongodb</p>
-        <p>NodeJS</p>
-      </div>
+      <br />
       <h1 class="head">Projects</h1>
       <h1 class="head">Blog</h1>
       <div class="head1">
