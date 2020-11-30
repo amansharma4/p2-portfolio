@@ -2,8 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Home from "./components/Home";
 import About from "./components/About";
-import Learning from "./components/Learning";
-import Project from "./components/Project";
+import Learning from "./components/Contact";
 function Routes() {
   return (
     <Router>
@@ -16,10 +15,7 @@ function Routes() {
             <Link to="/about">About</Link>
           </li>
           <li>
-            <Link to="/learning">Learning</Link>
-          </li>
-          <li>
-            <Link to="/project">Project</Link>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
 
@@ -30,11 +26,8 @@ function Routes() {
           <Route path="/about">
             <About />
           </Route>
-          <Route path="/learning">
+          <Route path="/contact">
             <Learning />
-          </Route>
-          <Route path="/project">
-            <Project />
           </Route>
         </Switch>
       </div>

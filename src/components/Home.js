@@ -5,7 +5,7 @@ function Home() {
   return (
     <div class="content">
       <img class="img" src={pic} alt="profilePhoto" />
-      <h2 id="heading">Aspiring Software Engineer | Freelancer</h2>
+      <h1>Aman Sharma</h1>
       <p class="para">
         I am Frontend Developer upskilling the skills to be an Full Stack Dev.
       </p>

@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Mini-Project-Portfolio-Assignment-2
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Read these instructions carefully to understand the requirements and functionalities for this project.**
 
-## Available Scripts
+We will be Creating a Single Page Portfolio using React for this Assignment.
 
-In the project directory, you can run:
+## What you will learn from this mini project ?
 
-### `npm start`
+- props
+- functional component
+- how to create multiple component and use to build single application.
+- Usage of Import, export and other es6 features.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Functionalities
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Below Functionalities should be implemented in your Project:
 
-### `npm test`
+- Header section to navigate between `home`, `about` and `contact` pages (we can implement home page now and other pages can be built as extension of this project by youself).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Home Page will have following sections:
+  - Profile section that contain your image, name and bio.
+  - Project section that contains list of projects along with urls.
+  - Blog section, showing minimum of 4 blogs with name and url.
+  - Footer section
 
-### `npm run build`
+## Task 1: Project Set Up
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Clone this repo by using [use template](https://github.com/frontbenchHQ/Mini-Project-Portfolio-Assignment-2/generate) option with name of repo as `Mini-Project-Portfolio-Assignment`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Clone your created repo and work on it to push your code.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Use `githubbox.com` instead of `github.com` in your repository path, to create a synced codesandbox(always in sync with code in your repo). Read more [here](https://codesandbox.io/docs/importing#import-from-github)
 
-### `npm run eject`
+## Task 2: Project Requirements
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- [ ] Create a Header Component.
+- [ ] Similarly, create component for Profile, project, blog and footer.
+- [ ] Create a file `portfolioData.js` file.
+- [ ] Put all your information such as **profile information** (Name, image URL, bio description etc), **project data** and other info by making use of necessary data structure such as array and object wherever needed.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**NOTE:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Use of **class component** is strictly `not allowed`.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- There should not be any hard coded info in the project directly so that in case if someone want to use same portfolio template/design or you need to update any info , it can be just done by replacing/updating `portfolioData.js` file.
 
-## Learn More
+## Task 3
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [ ] Submit the code repo link.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+**Deadline** - **Sunday, 12PM ( DAY 4)**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---

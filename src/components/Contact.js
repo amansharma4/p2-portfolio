@@ -1,9 +1,41 @@
 import React from "react";
 import "./Style.css";
+import pic from "../img/pic.jpeg";
 
-export default function Project() {
+export default function Learning() {
   return (
     <div class="content">
+      <img class="img" src={pic} alt="profilePhoto" />
+      <h1>Aman Sharma</h1>
+      <p class="para">
+        I am Frontend Developer upskilling the skills to be an Full Stack Dev.
+      </p>
+      <h1 class="head">Skills</h1>
+
+      <div class="box-container">
+        <img
+          class="imgc"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
+          alt="js"
+        />
+        <img class="imgc" src="https://reactjs.org/logo-og.png" alt="react" />
+        <img
+          class="imgc"
+          src="https://miro.medium.com/max/640/1*-ivYkzeuYJedPKdEdfnNlg.png"
+          alt="mongodb"
+        />
+        <img
+          class="imgc"
+          src="https://miro.medium.com/max/2560/1*MuVcoMPyJcq8G4qf5s3HGQ.png"
+          alt="nodejs"
+        />
+      </div>
+      <div class="container">
+        <p>Javascript</p>
+        <p>React</p>
+        <p>Mongodb</p>
+        <p>NodeJS</p>
+      </div>
       <h1 class="head">Projects</h1>
       <h1 class="head">Blog</h1>
       <div class="head1">
