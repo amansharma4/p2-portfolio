@@ -1,5 +1,7 @@
 import React from "react";
 import "./Style.css";
+import Blogpost from "../components/Blogpost";
+import allPosts from "../data/blogs";
 import pic from "../img/pic.jpeg";
 
 const Contact = () => {
@@ -32,26 +34,12 @@ const Contact = () => {
       </div>
       <br />
       <h1 class="head">Projects</h1>
-      <h1 class="head">Blog</h1>
-      <div class="head1">
-        <ol>
-          <li>
-            <a href="https://www.linkedin.com/posts/amansharma01_day1-90dayschallenge-activity-6730060992027394048-oQ6I">
-              My Experience of joining Full stack camp
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/posts/amansharma01_day-90dayschallenge-learning-activity-6730062421232291841-TeCD">
-              Day 1 - Learnt about Flex box and Grid system. A summary!
-            </a>
-          </li>
-          <li>
-            <a href="https://amansharma4.github.io/p1-portfolio/">
-              Day 2 - How I built my portfolio project in pure HTML/CSS in a
-              day.
-            </a>
-          </li>
-        </ol>
+
+      <h1>Blogs</h1>
+      <div className="flex">
+        {allPosts.map((post) => {
+          return <Blogpost post={post} />;
+        })}
       </div>
 
       <hr />
