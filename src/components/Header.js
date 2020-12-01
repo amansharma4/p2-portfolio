@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Home from "../pages/Home";
 import About from "../pages/About";
-import Learning from "../pages/Contact";
+import Contact from "../pages/Contact";
 function Routes() {
   return (
     <Router>
@@ -27,7 +27,7 @@ function Routes() {
             <About />
           </Route>
           <Route path="/contact">
-            <Learning />
+            <Contact />
           </Route>
         </Switch>
       </div>
