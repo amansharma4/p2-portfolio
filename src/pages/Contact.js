@@ -1,7 +1,8 @@
 import React from "react";
 import "./Style.css";
 import Blogpost from "../components/Blogpost";
-import allPosts from "../data/blogs";
+import Projectpost from '../components/Projectpost'
+import {allPosts , allProject} from "../data/blogs";
 import pic from "../img/pic.jpeg";
 
 const Contact = () => {
