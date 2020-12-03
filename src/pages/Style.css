@@ -79,6 +79,7 @@ img {
   justify-content: center;
   height: 50px;
   margin: 20px;
+  margin-bottom: 50px;
 }
 .box {
   border: 1px solid rgb(129, 129, 129);
