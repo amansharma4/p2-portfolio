@@ -1,98 +1,35 @@
 body {
-  /* max-width: 600px; */
-  /* margin: 0 auto; */
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background-color: rgb(224, 224, 246);
+  background-color: #99c2e4;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  align-items: center;
+  max-width: 700px;
+  margin: auto;
+  margin-top: 40px;
 }
 .content {
   max-width: 700px;
 }
-ul {
-  font-size: 20px;
-  display: flex;
-  justify-content: space-evenly;
-  list-style: none;
-  font-weight: bold;
-  margin-top: 70px;
-}
-a {
-  text-decoration: none;
-  color: black;
-}
-img {
+.img {
   border-radius: 100%;
   height: 140px;
 }
-
-#heading {
-  text-align: center;
-}
-.para {
-  text-align: center;
-  font-size: 30px;
-  font-weight: bold;
-}
-.head {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-.head1 {
-  display: flex;
-  justify-content: flex-start;
-  color: blue;
-  font-size: 30px;
-}
-
-.square {
-  height: 70px;
-  width: 70px;
-  background-color: rgb(202, 202, 202);
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-
-.flex-container {
-  display: flex;
-  justify-content: space-evenly;
-}
-.flex-container > div {
-  background-color: #f1f1f1;
-  width: 100px;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
-}
-.content {
-  margin-left: 10px;
-  margin-right: 10px;
-}
-#col {
-  color: blue;
-}
-
-.box-container {
-  display: flex;
-  justify-content: center;
+.imgc {
   height: 50px;
-  margin: 20px;
+  margin: 15px;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   margin-bottom: 50px;
 }
-.box {
-  border: 1px solid rgb(129, 129, 129);
-  height: 75px;
-  width: 75px;
+p {
+  text-align: center;
+  font-size: 18px;
 }
-.imgc {
-  height: 75px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  width: 75px;
-}
-.footer {
-  padding: 10px;
+.link {
+  margin-left: 15px;
 }
