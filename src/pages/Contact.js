@@ -1,7 +1,7 @@
 import React from "react";
 import "./Style.css";
 import Blogpost from "../components/Blogpost";
-import allPosts from "../data/blogs";
+import allPosts from "../profileData";
 import pic from "../img/pic.jpeg";
 
 const Contact = () => {
