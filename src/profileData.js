@@ -1,4 +1,20 @@
-const allPosts = [
+export const allPosts = [
+  {
+    title: "StopWatch Project",
+    link: "https://ev2hk.csb.app/"
+  },
+  {
+    title: "Portfolio In HTML CSS JS",
+    link: "https://amansharma4.github.io/p1-portfolio/"
+  },
+
+  {
+    title: "Food Recipe App.",
+    link: "https://receipe-food.herokuapp.com/"
+  }
+];
+
+export const allProject = [
   {
     title: "My Experience of joining Full stack camp",
     link:
@@ -16,5 +32,3 @@ const allPosts = [
     link: "https://amansharma4.github.io/p1-portfolio/"
   }
 ];
-
-export default allPosts;

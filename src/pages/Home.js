@@ -1,8 +1,8 @@
 import React from "react";
 import "./Style.css";
 import Blogpost from "../components/Blogpost";
-import allPosts from "../profileData";
-
+import { allPosts } from "../profileData";
+import { allProject } from "../profileData";
 import pic from "../img/pic.jpeg";
 const Home = () => {
   return (
@@ -32,9 +32,13 @@ const Home = () => {
           alt="nodejs"
         />
       </div>
-      <br />
-      <h1 class="head">Projects</h1>
 
+      <h1 class="head">Projects</h1>
+      <div className="flex">
+        {allProject.map((post) => {
+          return <Blogpost post={post} />;
+        })}
+      </div>
       <h1>Blogs</h1>
       <div className="flex">
         {allPosts.map((post) => {

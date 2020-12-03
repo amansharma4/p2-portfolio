@@ -33,6 +33,7 @@ img {
   font-weight: bold;
 }
 .head {
+  margin-top: 120px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -75,7 +76,6 @@ img {
 .box-container {
   height: 50px;
   margin: 20px;
-
 }
 .box {
   border: 1px solid rgb(129, 129, 129);
