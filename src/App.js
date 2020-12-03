@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 import "./App.css";
 import Routes from "./components/Header";
 function App() {
@@ -8,4 +8,5 @@ function App() {
     </div>
   );
 }
+
 export default App;
