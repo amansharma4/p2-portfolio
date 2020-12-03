@@ -54,6 +54,7 @@ img {
   align-items: center;
   justify-content: center;
 }
+
 .flex-container {
   display: flex;
   justify-content: space-evenly;
