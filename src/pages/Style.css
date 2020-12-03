@@ -73,6 +73,7 @@ img {
 #col {
   color: blue;
 }
+
 .box-container {
   display: flex;
   justify-content: center;
